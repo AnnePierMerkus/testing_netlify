@@ -1,22 +1,37 @@
 {
-  "name": "my-next-app",
+  "name": "cardiology_doctor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.2"
+    "@clerk/nextjs": "^6.9.2",
+    "@devexpress/dx-react-scheduler": "^4.0.9",
+    "@devexpress/dx-react-scheduler-material-ui": "^4.0.9",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
+    "@mui/x-date-pickers": "^5.0.15",
+    "@tanstack/react-query": "^5.62.8",
+    "axios": "^1.7.9",
+    "moment": "^2.30.1",
+    "next": "^15.1.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-table": "^7.8.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/next": "^8.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "@types/react-table": "^7.7.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
